@@ -21,6 +21,28 @@ public class RecruitmentPage extends PageBase{
      By searchButton = By.xpath("//button[@class=\"oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space\"]");
      By addButton = By.xpath("//button[@class=\"oxd-button oxd-button--medium oxd-button--secondary\"]");
 
+     public void fillJobTitle(String jobTitle){
+         selectfromDropDownList(this.jobTitle,jobTitle);
+     }
+    public void fillVacancy(String vacancy){
+        selectfromDropDownList(this.vacancy,vacancy);
+    }
+    public void fillHiringManager(String hiringManager){
+        selectfromDropDownList(this.hiringManager,hiringManager);
+    }
+    public void fillStatus(String status){
+        selectfromDropDownList(this.status,status);
+    }
+    public void fillCandidateName(String candidateName){
+        sendKeys(this.candidateName,candidateName);
+    }
+    public void fillKeyWords(String keywords){
+        sendKeys(this.keywords,keywords);
+    }
+
+
+
+
 
 
 }
