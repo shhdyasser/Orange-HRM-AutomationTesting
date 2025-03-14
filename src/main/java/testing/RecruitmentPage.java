@@ -40,8 +40,11 @@ public class RecruitmentPage extends PageBase{
         sendKeys(this.keywords,keywords);
     }
     public void fillDateOfApplication(String dateOfApplicationFrom){
-        sendKeys(this.dateOfApplicationFrom,dateOfApplicationFrom);
+        selectfromDropDownList(this.dateOfApplicationFrom,dateOfApplicationFrom);
     }
+   public void fillDateOfApplicationTo(String dateOfApplicationTo){
+       selectfromDropDownList(this.dateOfApplicationTo,dateOfApplicationTo);
+   }
 
 
 
