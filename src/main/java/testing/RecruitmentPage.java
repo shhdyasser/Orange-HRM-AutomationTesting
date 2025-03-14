@@ -39,6 +39,10 @@ public class RecruitmentPage extends PageBase{
     public void fillKeyWords(String keywords){
         sendKeys(this.keywords,keywords);
     }
+    public void fillDateOfApplication(String dateOfApplicationFrom){
+        sendKeys(this.dateOfApplicationFrom,dateOfApplicationFrom);
+    }
+
 
 
 
