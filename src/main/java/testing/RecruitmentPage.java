@@ -22,16 +22,16 @@ public class RecruitmentPage extends PageBase{
      By addButton = By.xpath("//button[@class=\"oxd-button oxd-button--medium oxd-button--secondary\"]");
 
      public void fillJobTitle(String jobTitle){
-         selectfromDropDownList(this.jobTitle,jobTitle);
+         sendKeys(this.jobTitle,jobTitle);
      }
     public void fillVacancy(String vacancy){
-        selectfromDropDownList(this.vacancy,vacancy);
+        sendKeys(this.vacancy,vacancy);
     }
     public void fillHiringManager(String hiringManager){
-        selectfromDropDownList(this.hiringManager,hiringManager);
+        sendKeys(this.hiringManager,hiringManager);
     }
     public void fillStatus(String status){
-        selectfromDropDownList(this.status,status);
+        sendKeys(this.status,status);
     }
     public void fillCandidateName(String candidateName){
         sendKeys(this.candidateName,candidateName);

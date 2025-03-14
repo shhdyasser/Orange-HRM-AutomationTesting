@@ -13,9 +13,13 @@ public class DashboardPage extends PageBase{
 
     public String dashboardText = "Dashboard";
 
+    By RecruitmentButton = By.xpath("(//a[@class=\"oxd-main-menu-item\"])[5]");
     By actualResult =By.xpath("//*[@class=\"oxd-text oxd-text--h6 oxd-topbar-header-breadcrumb-module\"]");
 
     public String ActualResultAssert(){
         return driver.findElement(actualResult).getText();
+    }
+    public void ClickRecruitmentButton(){
+        clickOnElement(RecruitmentButton);
     }
 }
