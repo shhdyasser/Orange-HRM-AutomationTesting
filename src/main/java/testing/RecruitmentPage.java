@@ -45,7 +45,18 @@ public class RecruitmentPage extends PageBase{
    public void fillDateOfApplicationTo(String dateOfApplicationTo){
        selectfromDropDownList(this.dateOfApplicationTo,dateOfApplicationTo);
    }
-
+   public void fillMethodOfApplication(String methodOfApplication){
+         selectfromDropDownList(this.methodOfApplication,methodOfApplication);
+   }
+  public void clickResetButton(String resetButton){
+         clickOnElement(this.resetButton);
+  }
+  public void clickSearchButton(String  searchButton ){
+         clickOnElement(this. searchButton );
+     }
+     public void clickAddButton(String addButton){
+         clickOnElement(this.addButton);
+     }
 
 
 
