@@ -19,6 +19,7 @@ public class RecruitmentPage extends PageBase{
      By methodOfApplication = By.xpath("(//*[@class=\"oxd-select-text-input\"])[5]");
      By resetButton = By.xpath("//button[@class=\"oxd-button oxd-button--medium oxd-button--ghost\"]");
      By searchButton = By.xpath("//button[@class=\"oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space\"]");
+     By addButton = By.xpath("//button[@class=\"oxd-button oxd-button--medium oxd-button--secondary\"]");
 
 
 
